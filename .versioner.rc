@@ -11,7 +11,7 @@ commit_message = '%(version)s'
 ;  -f
 ;  --local-user=some-key-id
 
-[file:README.md]
+[file:./README.md]
 enabled = true
 search = ^\s*__version__\s*=.*$
 replace = __version__ = '%(version)s'
