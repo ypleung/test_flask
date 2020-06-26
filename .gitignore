@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+**/*.log
+
+# Ignore .DS_Store files on OS X
+.DS_Store
+
+*/.DS_Store
+
+# Ignore binary files
+*/__pycache__/
+__pycache__/
+
+*.pyc
+*.pyo
+**/*.pyc
+**/*.pyo
+
+# forget compiled files
+build/
+dist/
