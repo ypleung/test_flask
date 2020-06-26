@@ -1,1 +1,1 @@
-Project version is 1.0.0.
+Project version is 1.2.3.
