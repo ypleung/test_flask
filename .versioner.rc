@@ -12,11 +12,11 @@ commit_message = '%(version)s'
 ;  --local-user=some-key-id
 
 [file:./README.md]
-enabled = true
-search = ^"Project version is \d+\.\d+.\d+."$
-replace = "Project version is %(version)s."
-date_format = "%Y-%m-%d"
-match = line
-search_flags = 
-encoding = utf-8
+    enabled = true
+    search = ^"Project version is \d+\.\d+.\d+."$
+    replace = "Project version is %(version)s."
+    date_format = "%Y-%m-%d"
+    match = line
+    search_flags = 
+    encoding = utf-8
 
