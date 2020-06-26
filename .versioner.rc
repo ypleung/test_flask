@@ -11,8 +11,8 @@ commit_message = '%(version)s'
 ;  -f
 ;  --local-user=some-key-id
 
-[file:./README.md]
-enabled = true
+[file:README.md]
+enabled = false
 search = ^\s*__version__\s*=.*$
 replace = __version__ = '%(version)s'
 date_format = %Y-%m-%d
@@ -20,10 +20,3 @@ match = line
 search_flags = 
 encoding = utf-8
 
-[file:2:some/folder/some_file.py]
-    enabled = true
-    search = ^"Program is in version \d+\.\d+\.\d+"$
-    replace = "Program is in version %(version)s"
-    match = line
-    search_flags = 
-    encoding = utf-8
