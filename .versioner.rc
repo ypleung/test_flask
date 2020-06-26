@@ -13,8 +13,8 @@ commit_message = '%(version)s'
 
 [file:./README.md]
 enabled = false
-search = "__version__"
-replace = %(version)s
+search = ^"Project version is \d+\.\d+\.\d+"$
+replace = "Project version is %(version)s"
 date_format = "%Y-%m-%d"
 match = line
 search_flags = 

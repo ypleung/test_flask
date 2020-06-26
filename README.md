@@ -1,1 +1,1 @@
-Project version is __version__.
+Project version is 1.0.0.
