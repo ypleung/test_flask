@@ -1,1 +1,1 @@
-Add a minor hotfix to prod.
+Project version is __version__.
