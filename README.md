@@ -1,1 +1,2 @@
-1.0 in prod
+1.0 in development
+1.1 create development-stable
