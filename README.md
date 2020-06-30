@@ -1,1 +1,2 @@
-Project version is 1.2.3.
+1.0 in development
+2.0 created development-stable
