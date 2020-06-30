@@ -3,5 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_www():
-    msg = "Hello World! Welcome." 
+    msg = "Hello World! Welcome.\n" 
+    msg = msg + "New feature." 
     return msg
