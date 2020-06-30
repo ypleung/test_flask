@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_www():
-    return "MAJOR CHANGE Hello World Wide Web!"
+    return "IN Development" 

@@ -1,1 +1,1 @@
-Project version is 1.2.3.
+1.0 in prod
